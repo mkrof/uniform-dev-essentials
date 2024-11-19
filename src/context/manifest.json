@@ -25,7 +25,7 @@
         "personalQueryString": {
           "str": 50,
           "cap": 100,
-          "dur": "s",
+          "dur": "t",
           "crit": {
             "op": "&",
             "type": "G",

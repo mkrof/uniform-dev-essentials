@@ -101,7 +101,7 @@ const App = ({
         {faviconHref && <link rel="shortcut icon" href={faviconHref} />}
       </Head>
       <LazyMotion features={domAnimation}>
-        <UniformContext context={serverUniformContext ?? clientContext}>
+        <UniformContext outputType="edge" context={serverUniformContext ?? clientContext}>
           <Component {...pageProps} />
         </UniformContext>
       </LazyMotion>
