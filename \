@@ -1,0 +1,49 @@
+{
+  "project": {
+    "pz": {
+      "sig": {
+        "personalQueryString": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "true"
+                },
+                "queryName": "personal"
+              }
+            ]
+          }
+        },
+        "personalCookie": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "CK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "true"
+                },
+                "cookieName": "personal"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "test": {}
+  }
+}
