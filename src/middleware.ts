@@ -56,7 +56,7 @@ export const config = {
   const handler = createUniformEdgeMiddleware();
 
   const response = await handler({
-    context,
+    context: context as any,
     origin: new URL(request.url),
     request,
   });
