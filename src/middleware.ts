@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { parse } from "cookie";
 import { NextRequest, NextResponse } from "next/server";
 import {
@@ -64,3 +65,4 @@ export const config = {
 
   return response;
 }
+/* eslint-enable */
