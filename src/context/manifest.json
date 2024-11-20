@@ -41,6 +41,26 @@
               }
             ]
           }
+        },
+        "citySignal": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "vc-city",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "Richmond"
+                }
+              }
+            ]
+          }
         }
       }
     },
