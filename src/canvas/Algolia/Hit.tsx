@@ -1,4 +1,4 @@
-/* eslint-ignore */
+/* eslint-disable */
 import React from 'react';
 import { Hits } from 'react-instantsearch-hooks-web';
 import { ComponentInstance } from '@uniformdev/canvas';

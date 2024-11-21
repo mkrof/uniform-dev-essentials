@@ -1,4 +1,4 @@
-/* eslint-ignore */
+/* eslint-disable */
 import React from 'react';
 import { ComponentProps } from '@uniformdev/canvas-react';
 import { renderHits } from '@/canvas/Algolia/Hit';

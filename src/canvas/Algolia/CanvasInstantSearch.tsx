@@ -1,4 +1,4 @@
-/* eslint-ignore */
+/* eslint-disable */
 import React from 'react';
 import { ComponentProps, UniformSlot } from '@uniformdev/canvas-react';
 import algoliasearch from 'algoliasearch/lite';

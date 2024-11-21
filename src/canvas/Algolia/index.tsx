@@ -1,4 +1,4 @@
-/* eslint-ignore */
+/* eslint-disable */
 import { registerUniformComponent } from '@uniformdev/canvas-react';
 import BasicComponents from './BasicComponents';
 import CanvasHits from './CanvasHits';
