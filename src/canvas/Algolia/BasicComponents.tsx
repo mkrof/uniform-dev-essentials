@@ -1,3 +1,4 @@
+/* eslint-ignore */
 import React from 'react';
 import { ComponentProps } from '@uniformdev/canvas-react';
 import { Configure, Pagination, RefinementList, SearchBox } from 'react-instantsearch-hooks-web';

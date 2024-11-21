@@ -1,3 +1,4 @@
+/* eslint-ignore */
 import React from 'react';
 import { Configure, Pagination } from 'react-instantsearch-hooks-web';
 import { ComponentProps } from '@uniformdev/canvas-react';

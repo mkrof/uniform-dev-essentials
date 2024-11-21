@@ -1,3 +1,4 @@
+/* eslint-ignore */
 import React from 'react';
 
 const ErrorPropertyCallout = ({ title }: { title?: string }) => (

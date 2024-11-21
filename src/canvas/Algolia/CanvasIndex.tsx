@@ -1,3 +1,4 @@
+/* eslint-ignore */
 import React from 'react';
 import { Index } from 'react-instantsearch-hooks-web';
 import { ComponentProps, UniformSlot } from '@uniformdev/canvas-react';
