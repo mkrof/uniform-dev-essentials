@@ -9,6 +9,7 @@ import '@/canvas';
 import '../styles/globals.scss';
 import { getMediaUrl } from '../utilities';
 import "instantsearch.css/themes/algolia.css";
+import '@/canvas/Algolia';
 
 const clientContext = createUniformContext();
 
