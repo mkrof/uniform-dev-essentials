@@ -1,4 +1,4 @@
-/* eslint ignore */
+/* eslint-disable */
 import React, { createContext, useContext } from 'react';
 
 const DefaultIndexContext = createContext<string | undefined>(undefined);
