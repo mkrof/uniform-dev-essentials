@@ -5,8 +5,8 @@ const nextConfig = {
     NEXT_PUBLIC_BUILD_TIMESTAMP: String(new Date().valueOf()),
   },
   publicRuntimeConfig: {
-    applicationId: process.env.ALGOLIA_APPLICATION_ID,
-    algoliaApiKey: process.env.ALGOLIA_API_KEY,
+    applicationId: process.env.NEXT_PUBLIC_ALGOLIA_APPLICATION_ID,
+    algoliaApiKey: process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_KEY,
   },
   images: {
     remotePatterns: [{ protocol: 'https', hostname: '*' }],

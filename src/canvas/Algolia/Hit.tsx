@@ -24,12 +24,21 @@ type HitComponent = {
 
 const Hit = ({ hit }: { hit: HitComponent }) => {
   const { objectID = 'unknown', ...properties } = hit || {};
+  const slug = properties.name
+    .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+    .map((x) => x.toLowerCase())
+    .join("-");
 
   return (
     <div>
-      <p>test</p>
-      <h3>{`objectID: ${objectID}`}</h3>
-      <p style={{ wordBreak: 'break-all' }}>{JSON.stringify(properties)}</p>
+      <h3 className="font-bold uppercase text-1xl pb-6">{properties.name}</h3>
+        <p style={{ 
+            wordBreak: 'break-all', 
+            lineClamp: 6, 
+            textOverflow: 'ellipsis', 
+            whiteSpace: 'nowrap', 
+            overflow: 'hidden' }} className="pb-6">{properties.description}</p>
+      <a href={`products/${slug}`} role="button" className="btn rounded-none btn-primary">Read More</a>
     </div>
   );
 };
