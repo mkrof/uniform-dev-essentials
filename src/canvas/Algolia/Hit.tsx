@@ -26,7 +26,7 @@ const Hit = ({ hit }: { hit: HitComponent }) => {
   const { objectID = 'unknown', ...properties } = hit || {};
   const slug = properties.name
     .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-    .map((x) => x.toLowerCase())
+    .map((x: any) => x.toLowerCase())
     .join("-");
 
   return (
